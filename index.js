@@ -6,6 +6,7 @@ app.get('/', (request, response) => {
   let target = (Math.round(Math.random() * 10) * 500) + 5000
   let raised = Math.round(Math.random() * target * 100) / 100
   let data = {
+    'status': 'OK',
     'target': target,
     'raised': raised
   }
