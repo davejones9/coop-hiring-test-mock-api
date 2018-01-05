@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const PORT = process.env.PORT || 5000
 
 app.get('/', (request, response) => {
   let target = (Math.round(Math.random() * 10) * 500) + 5000
