@@ -1,4 +1,4 @@
-# mock-test-api
+# Co-op hiring test mock API
 A mock API returning a simple JSON object. This will be used to provide API-like data to a test for hiring front-end developers.
 
 ## Response
