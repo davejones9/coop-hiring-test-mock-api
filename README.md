@@ -1,5 +1,5 @@
 # Co-op hiring test mock API
-A mock API returning a simple JSON object. This will be used to provide API-like data to a test for hiring front-end developers.
+A mock API returning a simple JSON object. The API can be accessed at <https://coop-mock-test-api.herokuapp.com>. _(Note: this runs on a free Heroku dyno, and may therefore require a little bit of time to start up when first queried)._
 
 ## Response
 
@@ -18,7 +18,7 @@ The following properties are returned:
 
 ### `status`
 
-Always equal to `'OK'`.
+Always equal to `"OK"`.
 
 ### `target`
 
